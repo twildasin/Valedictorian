@@ -30,7 +30,7 @@ public class HighSchoolClass {
         double amt = 0;
         for(Student a: students)
         {
-            if(isHonors(a))
+            if(a.isHonors())
             {
                 amt++;
             }
@@ -38,6 +38,7 @@ public class HighSchoolClass {
         return (amt/clslength);
     }
 
+    /*
     public double getGPA(Student l)
     {
         return l.GPA;
@@ -50,4 +51,5 @@ public class HighSchoolClass {
         else
             return false;
     }
+    */
 }

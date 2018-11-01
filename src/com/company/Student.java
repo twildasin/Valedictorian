@@ -10,4 +10,17 @@ public class Student {
         name = n;
         GPA = g;
     }
+
+    public boolean isHonors ()
+    {
+        if(GPA >= 3.5)
+            return true;
+        else
+            return false;
+    }
+
+    public double getGPA()
+    {
+        return GPA;
+    }
 }
